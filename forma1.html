@@ -1,0 +1,72 @@
+<html>
+<head>
+<title> Задание 3 </title>
+</head>
+<body>
+<h1> Форма заполнения </h1>
+<form action="submitstr.html" method="get">
+        <fieldset>
+                <legend>Данные</legend>
+                <label>Имя:<input type="text" name="imy" size="15" maxlength="15" required="required"/></label>
+                <label>Фамилия:<input type="text" name="familia" size="30" maxlength="30" required="required"/></label>
+                <br/><br/>
+                <label>Дата рождения:<input type="date" name="datet" required="required"/> </label>
+                <label>Место рождения:<input type="text" name="mesto HB" size="40" maxlength="40" required="required"/></label>
+                <br/><br/>
+                <p>Гражданство:
+                        <select name="kategorii">
+                        <option value="rus">Россия</option>
+                        <option value="tur">Турция</option>
+                        <option value="kanada">Канада</option>
+                        <option value="sha">США</option>
+                        <option value="ukr">Украина</option>
+                        </select></p>
+                <label>Последнее место жительства:<input type="text" name="mesto" size="70" maxlength="70" required="required"/></label>
+        </fieldset>
+        <fieldset>
+                <legend>Дополнительные сведения</legend>
+                <p>Рост:
+                        <select name="kategorii">
+                        <option value="do 140">ниже 140см</option>
+                        <option value="150">140-150см</option>
+                        <option value="160">150-160см</option>
+                        <option value="170">160-170см</option>
+                        <option value="180">170-180см</option>
+                        <option value="190">180-190см</option>
+                        <option value="200">190-2 метра</option>
+                        <option value="bo 200">выше 2 метров</option>
+                        </select></p>
+                <p>Цвет глаз:
+                        <select name="kategorii">
+                        <option value="1">Карие</option>
+                        <option value="2">Янтарные</option>
+                        <option value="3">Желтые</option>
+                        <option value="4">Черные</option>
+                        <option value="5">Голубые</option>
+                        <option value="6">Синие</option>
+                        <option value="7">Зеленые</option>
+                        <option value="8">Болотные</option>
+                        <option value="9">Серые</option>
+                        <option value="10">Аниридия</option>
+                        <option value="11">Альбинизм</option>
+                        <option value="12">Гетерохромия</option>
+                        </select></p>
+                <p>Цвет волос:
+                        <select name="kategorii">
+                        <option value="1">Русый</option>
+                        <option value="2">Рыжий</option>
+                        <option value="4">Брюнет(-ка)</option>
+                        <option value="5">Блонд</option>
+                        <option value="6">Шатен (-ка)</option>
+                        <option value="7">Седой</option>
+                        </select></p>
+                <label>Кличка:<input type="text" name="click" size="30" maxlength="30" required="required"/></label>
+                <br/><br/>
+                <label>Знание языков:<input type="text" name="mesto HB" size="40" maxlength="40" required="required"/></label>
+                <p>Особые приметы:</p>
+                <p><textarea name="comment" cols="70" rows="5"></textarea>
+                </fieldset>
+            <p><input type="image" src="save.png" width="300" height="100"/></p>
+</form>
+</body>
+</html>
